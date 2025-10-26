@@ -6,13 +6,13 @@ Start instructions:
 2) npm install
 3) npx expo start.
 
-This project has been configured using windows. API keys are obtained through the following environment variables:
+This project has been configured using windows, to be launched with expo sdk version 54. API keys are obtained through the following environment variables:
 const EXPO_PUBLIC_ASI_ONE_API_KEY = process.env.EXPO_PUBLIC_ASI_ONE_API_KEY;
 const EXPO_PUBLIC_OPENAI_API_KEY = process.env.EXPO_PUBLIC_OPENAI_API_KEY;
 in ./aria-app/server/node-server-interface.ts at the top of the document. Modify as necessary.
 
 App operation instructions:
-hold the "record" icon to send a message to ARIA. release to get a response.
+hold the "record" icon to send a message to ARIA. release to get a response. Response times vary depending on the complexity of the request, typically requests requiring agentic interaction will take longer.
 
 
 
